@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e77ed0e58ce9467b93839436e9c958c4/artifacts
+end_time: 1729623469538
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e77ed0e58ce9467b93839436e9c958c4
+run_name: spiffy-swan-672
+run_uuid: e77ed0e58ce9467b93839436e9c958c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729623425238
+status: 4
+tags: []
+user_id: chibihat

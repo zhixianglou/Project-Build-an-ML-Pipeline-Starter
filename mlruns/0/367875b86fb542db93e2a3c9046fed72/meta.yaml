@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/367875b86fb542db93e2a3c9046fed72/artifacts
+end_time: 1729623684377
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 367875b86fb542db93e2a3c9046fed72
+run_name: peaceful-shrimp-549
+run_uuid: 367875b86fb542db93e2a3c9046fed72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729623648437
+status: 3
+tags: []
+user_id: chibihat

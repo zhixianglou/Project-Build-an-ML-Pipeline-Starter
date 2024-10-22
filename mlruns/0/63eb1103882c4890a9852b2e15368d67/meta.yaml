@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/63eb1103882c4890a9852b2e15368d67/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 63eb1103882c4890a9852b2e15368d67
+run_name: rambunctious-fox-753
+run_uuid: 63eb1103882c4890a9852b2e15368d67
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729623456827
+status: 1
+tags: []
+user_id: chibihat

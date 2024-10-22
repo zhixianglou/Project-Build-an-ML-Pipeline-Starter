@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b24c0f68c41b4b9aab87168ddd9b08ce/artifacts
+end_time: 1729623684142
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b24c0f68c41b4b9aab87168ddd9b08ce
+run_name: awesome-snipe-62
+run_uuid: b24c0f68c41b4b9aab87168ddd9b08ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729623651591
+status: 3
+tags: []
+user_id: chibihat

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/eaa0ec5661794d5f9b9743eee92c223d/artifacts
+end_time: 1729623585861
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eaa0ec5661794d5f9b9743eee92c223d
+run_name: aged-panda-341
+run_uuid: eaa0ec5661794d5f9b9743eee92c223d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729623568638
+status: 4
+tags: []
+user_id: chibihat

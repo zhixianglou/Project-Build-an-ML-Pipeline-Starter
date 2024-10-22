@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/1999f8f599db4f9e8aed311ff5f20f67/artifacts
+end_time: 1729622079886
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1999f8f599db4f9e8aed311ff5f20f67
+run_name: abrasive-duck-118
+run_uuid: 1999f8f599db4f9e8aed311ff5f20f67
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729622035057
+status: 3
+tags: []
+user_id: chibihat

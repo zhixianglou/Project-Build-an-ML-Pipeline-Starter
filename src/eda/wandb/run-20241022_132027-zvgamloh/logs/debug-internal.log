@@ -1,0 +1,97 @@
+2024-10-22 13:20:27,390 INFO    StreamThr :1890 [internal.py:wandb_internal():86] W&B internal server running at pid: 1890, started at: 2024-10-22 13:20:27.387951
+2024-10-22 13:20:27,392 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status
+2024-10-22 13:20:27,397 INFO    WriterThread:1890 [datastore.py:open_for_write():85] open: /mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20241022_132027-zvgamloh/run-zvgamloh.wandb
+2024-10-22 13:20:27,399 DEBUG   SenderThread:1890 [sender.py:send():380] send: header
+2024-10-22 13:20:27,454 DEBUG   SenderThread:1890 [sender.py:send():380] send: run
+2024-10-22 13:20:27,908 INFO    SenderThread:1890 [dir_watcher.py:__init__():211] watching files in: /mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20241022_132027-zvgamloh/files
+2024-10-22 13:20:27,908 INFO    SenderThread:1890 [sender.py:_start_run_threads():1124] run started: zvgamloh with start time 1729621227.388697
+2024-10-22 13:20:28,174 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:20:28,378 DEBUG   SenderThread:1890 [sender.py:send():380] send: stats
+2024-10-22 13:20:29,402 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:20:32,670 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: keepalive
+2024-10-22 13:20:33,006 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:20:33,302 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:20:34,600 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:20:37,744 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: keepalive
+2024-10-22 13:20:38,036 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:20:38,431 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:20:39,678 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:20:43,050 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: keepalive
+2024-10-22 13:20:43,115 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:20:43,507 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:20:44,704 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:20:48,276 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:20:48,466 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: keepalive
+2024-10-22 13:20:48,515 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:20:49,793 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:20:50,826 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: keepalive
+2024-10-22 13:20:53,351 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:20:53,603 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:20:54,937 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:20:56,179 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: keepalive
+2024-10-22 13:20:58,378 DEBUG   SenderThread:1890 [sender.py:send():380] send: stats
+2024-10-22 13:20:58,550 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:20:58,628 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:00,441 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:01,561 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: keepalive
+2024-10-22 13:21:03,637 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:03,660 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:05,544 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:07,032 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: keepalive
+2024-10-22 13:21:08,686 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:08,754 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:10,858 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:12,508 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: keepalive
+2024-10-22 13:21:13,710 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:13,920 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:16,238 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:17,983 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: keepalive
+2024-10-22 13:21:18,714 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:19,008 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:20,110 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: keepalive
+2024-10-22 13:21:21,342 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:23,886 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:24,123 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:25,468 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: keepalive
+2024-10-22 13:21:26,492 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:28,384 DEBUG   SenderThread:1890 [sender.py:send():380] send: stats
+2024-10-22 13:21:29,015 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:29,181 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:30,850 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: keepalive
+2024-10-22 13:21:32,418 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:34,136 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:34,291 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:36,252 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: keepalive
+2024-10-22 13:21:37,527 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:39,280 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:39,364 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:41,433 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: keepalive
+2024-10-22 13:21:42,624 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:44,364 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:44,527 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:46,648 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: keepalive
+2024-10-22 13:21:47,756 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:49,524 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:49,574 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:49,722 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: cancel
+2024-10-22 13:21:49,726 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: cancel
+2024-10-22 13:21:52,894 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:54,129 WARNING StreamThr :1890 [internal.py:is_dead():414] Internal process exiting, parent pid 1807 disappeared
+2024-10-22 13:21:54,130 ERROR   StreamThr :1890 [internal.py:wandb_internal():152] Internal process shutdown.
+2024-10-22 13:21:54,539 INFO    memory    :1890 [interfaces.py:monitor():140] Process proc.memory.rssMB has exited.
+2024-10-22 13:21:54,541 DEBUG   SystemMonitor:1890 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-10-22 13:21:54,542 DEBUG   SystemMonitor:1890 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-10-22 13:21:54,544 DEBUG   SenderThread:1890 [sender.py:send():380] send: stats
+2024-10-22 13:21:54,579 INFO    HandlerThread:1890 [handler.py:finish():866] shutting down handler
+2024-10-22 13:21:54,580 DEBUG   HandlerThread:1890 [handler.py:handle_request():146] handle_request: status_report
+2024-10-22 13:21:54,588 INFO    SenderThread:1890 [sender.py:finish():1536] shutting down sender
+2024-10-22 13:21:54,588 INFO    SenderThread:1890 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-10-22 13:21:54,591 INFO    WriterThread:1890 [datastore.py:close():294] close: /mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20241022_131809-rvrjreyn/run-rvrjreyn.wandb
+2024-10-22 13:21:55,492 INFO    SenderThread:1890 [dir_watcher.py:finish():388] scan: /mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20241022_131809-rvrjreyn/files
+2024-10-22 13:21:55,495 INFO    SenderThread:1890 [dir_watcher.py:finish():402] scan save: /mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20241022_131809-rvrjreyn/files/config.yaml config.yaml
+2024-10-22 13:21:55,499 INFO    SenderThread:1890 [file_pusher.py:finish():175] shutting down file pusher
+2024-10-22 13:21:55,499 INFO    SenderThread:1890 [file_pusher.py:join():181] waiting for file pusher
+2024-10-22 13:21:55,911 INFO    wandb-upload_0:1890 [upload_job.py:push():131] Uploaded file /mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20241022_131809-rvrjreyn/files/config.yaml
+2024-10-22 13:21:56,317 INFO    MainThread:1890 [internal.py:handle_exit():76] Internal process exited
+2024-10-22 13:21:56,318 INFO    MainThread:1890 [internal.py:handle_exit():76] Internal process exited
+2024-10-22 13:21:56,320 INFO    MainThread:1890 [internal.py:handle_exit():76] Internal process exited

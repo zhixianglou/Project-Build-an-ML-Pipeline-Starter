@@ -1,0 +1,59 @@
+2024-10-22 13:22:22,637 INFO    MainThread:2040 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2024-10-22 13:22:22,638 INFO    MainThread:2040 [wandb_setup.py:_flush():76] Configure stats pid to 2040
+2024-10-22 13:22:22,638 INFO    MainThread:2040 [wandb_setup.py:_flush():76] Loading settings from /home/chibihat/.config/wandb/settings
+2024-10-22 13:22:22,638 INFO    MainThread:2040 [wandb_setup.py:_flush():76] Loading settings from /mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/settings
+2024-10-22 13:22:22,638 INFO    MainThread:2040 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-10-22 13:22:22,638 INFO    MainThread:2040 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-10-22 13:22:22,639 INFO    MainThread:2040 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-22 13:22:22,639 INFO    MainThread:2040 [wandb_init.py:_log_setup():524] Logging user logs to /mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20241022_132222-2rhv39yf/logs/debug.log
+2024-10-22 13:22:22,639 INFO    MainThread:2040 [wandb_init.py:_log_setup():525] Logging internal logs to /mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20241022_132222-2rhv39yf/logs/debug-internal.log
+2024-10-22 13:22:22,640 INFO    MainThread:2040 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fd9126a5fc0>
+2024-10-22 13:22:22,640 INFO    MainThread:2040 [wandb_init.py:init():564] calling init triggers
+2024-10-22 13:22:22,640 INFO    MainThread:2040 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2024-10-22 13:22:22,640 INFO    MainThread:2040 [wandb_init.py:init():614] starting backend
+2024-10-22 13:22:22,640 INFO    MainThread:2040 [wandb_init.py:init():618] setting up manager
+2024-10-22 13:22:22,644 INFO    MainThread:2040 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-22 13:22:22,645 INFO    MainThread:2040 [wandb_init.py:init():624] backend started and connected
+2024-10-22 13:22:22,652 INFO    MainThread:2040 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2024-10-22 13:22:22,653 INFO    MainThread:2040 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-10-22 13:22:22,653 INFO    MainThread:2040 [wandb_init.py:init():716] updated telemetry
+2024-10-22 13:22:22,795 INFO    MainThread:2040 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2024-10-22 13:22:23,112 INFO    MainThread:2040 [wandb_run.py:_on_init():2254] communicating current version
+2024-10-22 13:22:23,225 INFO    MainThread:2040 [wandb_run.py:_on_init():2263] got version response upgrade_message: "wandb version 0.18.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-10-22 13:22:23,226 INFO    MainThread:2040 [wandb_init.py:init():800] starting run threads in backend
+2024-10-22 13:22:28,646 INFO    MainThread:2040 [wandb_run.py:_console_start():2233] atexit reg
+2024-10-22 13:22:28,646 INFO    MainThread:2040 [wandb_run.py:_redirect():2088] redirect: wrap_raw
+2024-10-22 13:22:28,647 INFO    MainThread:2040 [wandb_run.py:_redirect():2153] Wrapping output streams.
+2024-10-22 13:22:28,647 INFO    MainThread:2040 [wandb_run.py:_redirect():2178] Redirects installed.
+2024-10-22 13:22:28,648 INFO    MainThread:2040 [wandb_init.py:init():841] run started, returning control to user process
+2024-10-22 13:22:29,608 INFO    MainThread:2040 [jupyter.py:_save_ipynb():384] looking for notebook: src/eda/eda.ipynb
+2024-10-22 13:22:29,609 INFO    MainThread:2040 [wandb_init.py:_pause_backend():435] pausing backend
+2024-10-22 13:22:53,024 INFO    MainThread:2040 [wandb_init.py:_resume_backend():440] resuming backend
+2024-10-22 13:22:53,039 INFO    MainThread:2040 [jupyter.py:_save_ipynb():384] looking for notebook: src/eda/eda.ipynb
+2024-10-22 13:22:53,039 INFO    MainThread:2040 [wandb_init.py:_pause_backend():435] pausing backend
+2024-10-22 13:22:54,643 INFO    MainThread:2040 [wandb_init.py:_resume_backend():440] resuming backend
+2024-10-22 13:22:54,673 INFO    MainThread:2040 [jupyter.py:_save_ipynb():384] looking for notebook: src/eda/eda.ipynb
+2024-10-22 13:22:54,673 INFO    MainThread:2040 [wandb_init.py:_pause_backend():435] pausing backend
+2024-10-22 13:23:05,655 INFO    MainThread:2040 [wandb_init.py:_resume_backend():440] resuming backend
+2024-10-22 13:23:05,664 INFO    MainThread:2040 [jupyter.py:_save_ipynb():384] looking for notebook: src/eda/eda.ipynb
+2024-10-22 13:23:05,665 INFO    MainThread:2040 [wandb_init.py:_pause_backend():435] pausing backend
+2024-10-22 13:23:07,919 INFO    MainThread:2040 [wandb_init.py:_resume_backend():440] resuming backend
+2024-10-22 13:23:07,939 INFO    MainThread:2040 [jupyter.py:_save_ipynb():384] looking for notebook: src/eda/eda.ipynb
+2024-10-22 13:23:07,939 INFO    MainThread:2040 [wandb_init.py:_pause_backend():435] pausing backend
+2024-10-22 13:23:10,681 INFO    MainThread:2040 [wandb_init.py:_resume_backend():440] resuming backend
+2024-10-22 13:23:10,690 INFO    MainThread:2040 [jupyter.py:_save_ipynb():384] looking for notebook: src/eda/eda.ipynb
+2024-10-22 13:23:10,691 INFO    MainThread:2040 [wandb_init.py:_pause_backend():435] pausing backend
+2024-10-22 13:23:12,212 INFO    MainThread:2040 [wandb_init.py:_resume_backend():440] resuming backend
+2024-10-22 13:23:12,214 INFO    MainThread:2040 [wandb_run.py:_finish():1962] finishing run zhixianglou-western-governors-university/nyc_airbnb/2rhv39yf
+2024-10-22 13:23:12,244 INFO    MainThread:2040 [jupyter.py:save_history():474] saving 8 cells to _session_history.ipynb
+2024-10-22 13:23:12,245 INFO    MainThread:2040 [wandb_run.py:_config_callback():1342] config_cb ('_wandb', 'session_history') code/_session_history.ipynb None
+2024-10-22 13:23:12,255 INFO    MainThread:2040 [jupyter.py:_save_ipynb():384] looking for notebook: src/eda/eda.ipynb
+2024-10-22 13:23:12,255 INFO    MainThread:2040 [wandb_init.py:_jupyter_teardown():452] cleaning up jupyter logic
+2024-10-22 13:23:12,256 INFO    MainThread:2040 [wandb_run.py:_atexit_cleanup():2202] got exitcode: 0
+2024-10-22 13:23:12,256 INFO    MainThread:2040 [wandb_run.py:_restore():2185] restore
+2024-10-22 13:23:12,256 INFO    MainThread:2040 [wandb_run.py:_restore():2191] restore done
+2024-10-22 13:23:20,973 INFO    MainThread:2040 [wandb_run.py:_footer_history_summary_info():3760] rendering history
+2024-10-22 13:23:20,975 INFO    MainThread:2040 [wandb_run.py:_footer_history_summary_info():3792] rendering summary
+2024-10-22 13:23:20,994 INFO    MainThread:2040 [wandb_run.py:_footer_sync_info():3719] logging synced files

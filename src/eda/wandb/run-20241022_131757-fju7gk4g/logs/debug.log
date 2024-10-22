@@ -1,0 +1,104 @@
+2024-10-22 13:17:57,539 INFO    MainThread:1807 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2024-10-22 13:17:57,540 INFO    MainThread:1807 [wandb_setup.py:_flush():76] Configure stats pid to 1807
+2024-10-22 13:17:57,540 INFO    MainThread:1807 [wandb_setup.py:_flush():76] Loading settings from /home/chibihat/.config/wandb/settings
+2024-10-22 13:17:57,540 INFO    MainThread:1807 [wandb_setup.py:_flush():76] Loading settings from /mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/settings
+2024-10-22 13:17:57,540 INFO    MainThread:1807 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-10-22 13:17:57,540 INFO    MainThread:1807 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-10-22 13:17:57,541 INFO    MainThread:1807 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-22 13:17:57,541 INFO    MainThread:1807 [wandb_init.py:_log_setup():524] Logging user logs to /mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20241022_131757-fju7gk4g/logs/debug.log
+2024-10-22 13:17:57,541 INFO    MainThread:1807 [wandb_init.py:_log_setup():525] Logging internal logs to /mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20241022_131757-fju7gk4g/logs/debug-internal.log
+2024-10-22 13:17:57,542 INFO    MainThread:1807 [wandb_init.py:_jupyter_setup():470] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f9c702a74c0>
+2024-10-22 13:17:57,542 INFO    MainThread:1807 [wandb_init.py:init():564] calling init triggers
+2024-10-22 13:17:57,542 INFO    MainThread:1807 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2024-10-22 13:17:57,542 INFO    MainThread:1807 [wandb_init.py:init():614] starting backend
+2024-10-22 13:17:57,542 INFO    MainThread:1807 [wandb_init.py:init():618] setting up manager
+2024-10-22 13:17:57,546 INFO    MainThread:1807 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-22 13:17:57,547 INFO    MainThread:1807 [wandb_init.py:init():624] backend started and connected
+2024-10-22 13:17:57,554 INFO    MainThread:1807 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2024-10-22 13:17:57,555 INFO    MainThread:1807 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-10-22 13:17:57,555 INFO    MainThread:1807 [wandb_init.py:init():716] updated telemetry
+2024-10-22 13:17:57,702 INFO    MainThread:1807 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2024-10-22 13:17:58,096 INFO    MainThread:1807 [wandb_run.py:_on_init():2254] communicating current version
+2024-10-22 13:17:58,211 INFO    MainThread:1807 [wandb_run.py:_on_init():2263] got version response upgrade_message: "wandb version 0.18.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-10-22 13:17:58,212 INFO    MainThread:1807 [wandb_init.py:init():800] starting run threads in backend
+2024-10-22 13:18:02,395 WARNING MainThread:1807 [wandb_init.py:init():1188] interrupted
+Traceback (most recent call last):
+  File "/home/chibihat/miniconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1166, in init
+    run = wi.init()
+  File "/home/chibihat/miniconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 811, in init
+    run_start_result = run_start_handle.wait(timeout=30)
+  File "/home/chibihat/miniconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/home/chibihat/miniconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/home/chibihat/miniconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/home/chibihat/miniconda3/envs/nyc_airbnb_dev/lib/python3.10/threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "/home/chibihat/miniconda3/envs/nyc_airbnb_dev/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2024-10-22 13:18:09,468 INFO    MainThread:1807 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2024-10-22 13:18:09,469 INFO    MainThread:1807 [wandb_setup.py:_flush():76] Configure stats pid to 1807
+2024-10-22 13:18:09,469 INFO    MainThread:1807 [wandb_setup.py:_flush():76] Loading settings from /home/chibihat/.config/wandb/settings
+2024-10-22 13:18:09,470 INFO    MainThread:1807 [wandb_setup.py:_flush():76] Loading settings from /mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/settings
+2024-10-22 13:18:09,471 INFO    MainThread:1807 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-10-22 13:18:09,471 INFO    MainThread:1807 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-10-22 13:18:09,472 INFO    MainThread:1807 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-22 13:18:09,472 INFO    MainThread:1807 [wandb_init.py:_log_setup():524] Logging user logs to /mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20241022_131809-rvrjreyn/logs/debug.log
+2024-10-22 13:18:09,473 INFO    MainThread:1807 [wandb_init.py:_log_setup():525] Logging internal logs to /mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20241022_131809-rvrjreyn/logs/debug-internal.log
+2024-10-22 13:18:09,473 INFO    MainThread:1807 [wandb_init.py:init():564] calling init triggers
+2024-10-22 13:18:09,474 INFO    MainThread:1807 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2024-10-22 13:18:09,474 INFO    MainThread:1807 [wandb_init.py:init():614] starting backend
+2024-10-22 13:18:09,475 INFO    MainThread:1807 [wandb_init.py:init():618] setting up manager
+2024-10-22 13:18:09,478 INFO    MainThread:1807 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-22 13:18:09,480 INFO    MainThread:1807 [wandb_init.py:init():624] backend started and connected
+2024-10-22 13:18:09,488 INFO    MainThread:1807 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2024-10-22 13:18:09,489 INFO    MainThread:1807 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-10-22 13:18:09,489 INFO    MainThread:1807 [wandb_init.py:init():716] updated telemetry
+2024-10-22 13:18:09,549 INFO    MainThread:1807 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2024-10-22 13:19:31,302 ERROR   MainThread:1807 [wandb_init.py:init():775] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-10-22 13:19:31,521 ERROR   MainThread:1807 [wandb_init.py:init():1184] Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+Traceback (most recent call last):
+  File "/home/chibihat/miniconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1166, in init
+    run = wi.init()
+  File "/home/chibihat/miniconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 781, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-10-22 13:20:27,376 INFO    MainThread:1807 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2024-10-22 13:20:27,377 INFO    MainThread:1807 [wandb_setup.py:_flush():76] Configure stats pid to 1807
+2024-10-22 13:20:27,377 INFO    MainThread:1807 [wandb_setup.py:_flush():76] Loading settings from /home/chibihat/.config/wandb/settings
+2024-10-22 13:20:27,378 INFO    MainThread:1807 [wandb_setup.py:_flush():76] Loading settings from /mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/settings
+2024-10-22 13:20:27,378 INFO    MainThread:1807 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-10-22 13:20:27,379 INFO    MainThread:1807 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-10-22 13:20:27,379 INFO    MainThread:1807 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-10-22 13:20:27,380 INFO    MainThread:1807 [wandb_init.py:_log_setup():524] Logging user logs to /mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20241022_132027-zvgamloh/logs/debug.log
+2024-10-22 13:20:27,381 INFO    MainThread:1807 [wandb_init.py:_log_setup():525] Logging internal logs to /mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/eda/wandb/run-20241022_132027-zvgamloh/logs/debug-internal.log
+2024-10-22 13:20:27,381 INFO    MainThread:1807 [wandb_init.py:init():564] calling init triggers
+2024-10-22 13:20:27,382 INFO    MainThread:1807 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2024-10-22 13:20:27,382 INFO    MainThread:1807 [wandb_init.py:init():614] starting backend
+2024-10-22 13:20:27,383 INFO    MainThread:1807 [wandb_init.py:init():618] setting up manager
+2024-10-22 13:20:27,387 INFO    MainThread:1807 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-10-22 13:20:27,387 INFO    MainThread:1807 [wandb_init.py:init():624] backend started and connected
+2024-10-22 13:20:27,395 INFO    MainThread:1807 [wandb_run.py:_label_probe_notebook():1294] probe notebook
+2024-10-22 13:20:27,396 INFO    MainThread:1807 [wandb_run.py:_label_probe_notebook():1304] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-10-22 13:20:27,396 INFO    MainThread:1807 [wandb_init.py:init():716] updated telemetry
+2024-10-22 13:20:27,453 INFO    MainThread:1807 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2024-10-22 13:21:49,721 ERROR   MainThread:1807 [wandb_init.py:init():775] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-10-22 13:21:49,790 ERROR   MainThread:1807 [wandb_init.py:init():1184] Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+Traceback (most recent call last):
+  File "/home/chibihat/miniconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1166, in init
+    run = wi.init()
+  File "/home/chibihat/miniconda3/envs/nyc_airbnb_dev/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 781, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/11d5138676434f49abdff25df1b1a609/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 11d5138676434f49abdff25df1b1a609
+run_name: gifted-skink-723
+run_uuid: 11d5138676434f49abdff25df1b1a609
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729623572023
+status: 1
+tags: []
+user_id: chibihat
