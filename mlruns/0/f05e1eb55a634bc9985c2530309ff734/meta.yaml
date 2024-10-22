@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f05e1eb55a634bc9985c2530309ff734/artifacts
+end_time: 1729626474285
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f05e1eb55a634bc9985c2530309ff734
+run_name: mercurial-turtle-75
+run_uuid: f05e1eb55a634bc9985c2530309ff734
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729626458939
+status: 4
+tags: []
+user_id: chibihat

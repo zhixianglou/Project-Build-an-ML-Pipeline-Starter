@@ -18,12 +18,11 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.impute import SimpleImputer
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OrdinalEncoder, FunctionTransformer
-
 import wandb
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error
 from sklearn.pipeline import Pipeline, make_pipeline
-
+from sklearn.preprocessing import OneHotEncoder
 
 def delta_date_feature(dates):
     """
@@ -61,7 +60,8 @@ def go(args):
     logger.info(f"Minimum price: {y.min()}, Maximum price: {y.max()}")
 
     X_train, X_val, y_train, y_val = train_test_split(
-        X, y, test_size=args.val_size, stratify=X[args.stratify_by], random_state=args.random_seed
+        X, y, test_size=args.val_size, stratify=X[args.stratify_by] if args.stratify_by != 'none' else None,
+        random_state=args.random_seed
     )
 
     logger.info("Preparing sklearn pipeline")
@@ -74,6 +74,7 @@ def go(args):
     ######################################
     # Fit the pipeline sk_pipe by calling the .fit method on X_train and y_train
     # YOUR CODE HERE
+    sk_pipe.fit(X_train, y_train)
     ######################################
 
     # Compute r2 and MAE
@@ -87,7 +88,7 @@ def go(args):
     logger.info(f"MAE: {mae}")
 
     logger.info("Exporting model")
-
+    X_val = X_val.apply(lambda col: col.astype(str) if col.dtype == 'object' else col)
     # Save model package in the MLFlow sklearn format
     if os.path.exists("random_forest_dir"):
         shutil.rmtree("random_forest_dir")
@@ -98,6 +99,8 @@ def go(args):
     signature = mlflow.models.infer_signature(X_val, y_pred)
     mlflow.sklearn.save_model(
         # YOUR CODE HERE
+        sk_pipe,
+        path="random_forest_dir",
         signature = signature,
         input_example = X_train.iloc[:5]
     )
@@ -122,6 +125,7 @@ def go(args):
     run.summary['r2'] = r_squared
     # Now save the variable mae under the key "mae".
     # YOUR CODE HERE
+    run.summary["mae"] = mae
     ######################################
 
     # Upload to W&B the feture importance visualization
@@ -163,9 +167,10 @@ def get_inference_pipeline(rf_config, max_tfidf_features):
     # Build a pipeline with two steps:
     # 1 - A SimpleImputer(strategy="most_frequent") to impute missing values
     # 2 - A OneHotEncoder() step to encode the variable
-    non_ordinal_categorical_preproc = make_pipeline(
-        # YOUR CODE HERE
-    )
+    non_ordinal_categorical_preproc = Pipeline(steps=[
+        ("imputer", SimpleImputer(strategy="most_frequent")),
+        ("onehot", OneHotEncoder(handle_unknown="ignore"))
+    ])
     ######################################
 
     # Let's impute the numerical columns to make sure we can handle missing values
@@ -185,22 +190,22 @@ def get_inference_pipeline(rf_config, max_tfidf_features):
     # we create a feature that represents the number of days passed since the last review
     # First we impute the missing review date with an old date (because there hasn't been
     # a review for a long time), and then we create a new feature from it,
-    date_imputer = make_pipeline(
-        SimpleImputer(strategy='constant', fill_value='2010-01-01'),
-        FunctionTransformer(delta_date_feature, check_inverse=False, validate=False)
-    )
+    date_imputer = Pipeline(steps=[
+        ("imputer", SimpleImputer(strategy='constant', fill_value='2010-01-01')),
+        ("delta_days", FunctionTransformer(delta_date_feature, check_inverse=False, validate=False))
+    ])
 
     # Some minimal NLP for the "name" column
     reshape_to_1d = FunctionTransformer(np.reshape, kw_args={"newshape": -1})
-    name_tfidf = make_pipeline(
-        SimpleImputer(strategy="constant", fill_value=""),
-        reshape_to_1d,
-        TfidfVectorizer(
+    name_tfidf = Pipeline(steps=[
+        ("imputer", SimpleImputer(strategy="constant", fill_value="")),
+        ("reshape", reshape_to_1d),
+        ("tfidf", TfidfVectorizer(
             binary=False,
             max_features=max_tfidf_features,
             stop_words='english'
-        ),
-    )
+        )),
+    ])
 
     # Let's put everything together
     preprocessor = ColumnTransformer(
@@ -228,6 +233,8 @@ def get_inference_pipeline(rf_config, max_tfidf_features):
     sk_pipe = Pipeline(
         steps =[
         # YOUR CODE HERE
+            ("preprocessor", preprocessor),
+            ("random_forest", random_forest)
         ]
     )
 

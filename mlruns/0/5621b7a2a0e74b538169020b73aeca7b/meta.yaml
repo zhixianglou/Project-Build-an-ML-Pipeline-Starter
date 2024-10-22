@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5621b7a2a0e74b538169020b73aeca7b/artifacts
+end_time: 1729627305549
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5621b7a2a0e74b538169020b73aeca7b
+run_name: wise-flea-319
+run_uuid: 5621b7a2a0e74b538169020b73aeca7b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729627292180
+status: 4
+tags: []
+user_id: chibihat

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/992a0a5ddd10447ab91914d2d9a9087a/artifacts
+end_time: 1729626732409
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 992a0a5ddd10447ab91914d2d9a9087a
+run_name: beautiful-cat-43
+run_uuid: 992a0a5ddd10447ab91914d2d9a9087a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729626717703
+status: 4
+tags: []
+user_id: chibihat

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/795706afa25a47a9a062f8045cddd8bc/artifacts
+end_time: 1729630042087
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 795706afa25a47a9a062f8045cddd8bc
+run_name: rumbling-stork-106
+run_uuid: 795706afa25a47a9a062f8045cddd8bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729630040075
+status: 4
+tags: []
+user_id: chibihat

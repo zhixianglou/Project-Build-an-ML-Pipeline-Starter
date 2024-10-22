@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f59573ab52c14fdb90c41ccba382511c/artifacts
+end_time: 1729626346499
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f59573ab52c14fdb90c41ccba382511c
+run_name: languid-sponge-571
+run_uuid: f59573ab52c14fdb90c41ccba382511c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729626333478
+status: 4
+tags: []
+user_id: chibihat

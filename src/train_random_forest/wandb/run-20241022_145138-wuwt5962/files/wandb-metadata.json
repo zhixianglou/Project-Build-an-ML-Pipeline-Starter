@@ -1,0 +1,143 @@
+{
+    "os": "Linux-5.15.153.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.10.15",
+    "heartbeatAt": "2024-10-22T19:51:38.739854",
+    "startedAt": "2024-10-22T19:51:38.084180",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--trainval_artifact",
+        "trainval_data.csv:latest",
+        "--val_size",
+        "0.2",
+        "--random_seed",
+        "42",
+        "--stratify_by",
+        "none",
+        "--rf_config",
+        "/mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/multirun/2024-10-22/14-51-32/0/rf_config.json",
+        "--max_tfidf_features",
+        "5",
+        "--output_artifact",
+        "random_forest_export"
+    ],
+    "state": "running",
+    "program": "/mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "src/train_random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/zhixianglou/Project-Build-an-ML-Pipeline-Starter.git",
+        "commit": "35eab3ee1e46bc9f832e185677893a5fb0f23d35"
+    },
+    "email": "zhixianglou@gmail.com",
+    "root": "/mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter",
+    "host": "JOE-CUBE",
+    "username": "chibihat",
+    "executable": "/home/chibihat/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 3600.017,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3600.017,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.017,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.017,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.017,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.017,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.017,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.017,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.017,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.017,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.017,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.017,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.017,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.017,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.017,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.017,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3600.017,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 19.332042694091797
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3070",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3070",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 15.54720687866211
+    }
+}

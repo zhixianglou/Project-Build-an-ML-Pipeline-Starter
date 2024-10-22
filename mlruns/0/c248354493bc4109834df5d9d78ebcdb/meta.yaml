@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c248354493bc4109834df5d9d78ebcdb/artifacts
+end_time: 1729627554814
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c248354493bc4109834df5d9d78ebcdb
+run_name: invincible-goose-379
+run_uuid: c248354493bc4109834df5d9d78ebcdb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729627504650
+status: 4
+tags: []
+user_id: chibihat

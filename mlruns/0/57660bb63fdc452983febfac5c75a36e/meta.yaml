@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/57660bb63fdc452983febfac5c75a36e/artifacts
+end_time: 1729627177700
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 57660bb63fdc452983febfac5c75a36e
+run_name: merciful-robin-94
+run_uuid: 57660bb63fdc452983febfac5c75a36e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729627166387
+status: 4
+tags: []
+user_id: chibihat

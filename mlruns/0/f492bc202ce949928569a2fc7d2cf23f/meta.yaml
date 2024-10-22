@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f492bc202ce949928569a2fc7d2cf23f/artifacts
+end_time: 1729625972409
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f492bc202ce949928569a2fc7d2cf23f
+run_name: rare-frog-899
+run_uuid: f492bc202ce949928569a2fc7d2cf23f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729625961332
+status: 4
+tags: []
+user_id: chibihat

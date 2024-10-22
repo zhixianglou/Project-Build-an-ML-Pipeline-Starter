@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/46369a47795c411a89a795482b4a60fc/artifacts
+end_time: 1729627939951
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 46369a47795c411a89a795482b4a60fc
+run_name: able-hare-844
+run_uuid: 46369a47795c411a89a795482b4a60fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729627912862
+status: 3
+tags: []
+user_id: chibihat

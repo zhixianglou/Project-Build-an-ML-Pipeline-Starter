@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a7784d396be74e6b9b67ced4ebf29e00/artifacts
+end_time: 1729627202546
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a7784d396be74e6b9b67ced4ebf29e00
+run_name: legendary-stag-347
+run_uuid: a7784d396be74e6b9b67ced4ebf29e00
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729627143048
+status: 4
+tags: []
+user_id: chibihat

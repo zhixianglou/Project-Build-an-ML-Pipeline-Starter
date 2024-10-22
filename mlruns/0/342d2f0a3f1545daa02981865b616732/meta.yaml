@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/342d2f0a3f1545daa02981865b616732/artifacts
+end_time: 1729628028407
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 342d2f0a3f1545daa02981865b616732
+run_name: exultant-deer-613
+run_uuid: 342d2f0a3f1545daa02981865b616732
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729627974094
+status: 3
+tags: []
+user_id: chibihat

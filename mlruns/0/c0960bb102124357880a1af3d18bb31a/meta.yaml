@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c0960bb102124357880a1af3d18bb31a/artifacts
+end_time: 1729626706771
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c0960bb102124357880a1af3d18bb31a
+run_name: capricious-snake-873
+run_uuid: c0960bb102124357880a1af3d18bb31a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729626693526
+status: 4
+tags: []
+user_id: chibihat

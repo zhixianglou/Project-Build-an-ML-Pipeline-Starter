@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c60e196e13a04604bbffcd1e09cb443a/artifacts
+end_time: 1729626487872
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c60e196e13a04604bbffcd1e09cb443a
+run_name: funny-calf-971
+run_uuid: c60e196e13a04604bbffcd1e09cb443a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729626474651
+status: 4
+tags: []
+user_id: chibihat

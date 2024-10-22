@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/86f961f212e44b8a80174cf542ef66b3/artifacts
+end_time: 1729627636984
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 86f961f212e44b8a80174cf542ef66b3
+run_name: thoughtful-hound-151
+run_uuid: 86f961f212e44b8a80174cf542ef66b3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729627555167
+status: 4
+tags: []
+user_id: chibihat

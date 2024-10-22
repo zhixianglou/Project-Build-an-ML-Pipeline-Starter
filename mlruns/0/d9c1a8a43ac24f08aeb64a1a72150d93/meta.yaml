@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d9c1a8a43ac24f08aeb64a1a72150d93/artifacts
+end_time: 1729625159982
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d9c1a8a43ac24f08aeb64a1a72150d93
+run_name: flawless-shad-940
+run_uuid: d9c1a8a43ac24f08aeb64a1a72150d93
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729625109156
+status: 3
+tags: []
+user_id: chibihat

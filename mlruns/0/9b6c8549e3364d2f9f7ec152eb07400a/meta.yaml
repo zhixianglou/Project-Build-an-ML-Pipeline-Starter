@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9b6c8549e3364d2f9f7ec152eb07400a/artifacts
+end_time: 1729629940768
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9b6c8549e3364d2f9f7ec152eb07400a
+run_name: welcoming-fly-276
+run_uuid: 9b6c8549e3364d2f9f7ec152eb07400a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729629935510
+status: 4
+tags: []
+user_id: chibihat

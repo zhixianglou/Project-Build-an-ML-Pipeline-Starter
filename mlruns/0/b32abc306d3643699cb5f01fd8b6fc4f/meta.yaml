@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b32abc306d3643699cb5f01fd8b6fc4f/artifacts
+end_time: 1729627477877
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b32abc306d3643699cb5f01fd8b6fc4f
+run_name: honorable-mink-937
+run_uuid: b32abc306d3643699cb5f01fd8b6fc4f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729627458408
+status: 4
+tags: []
+user_id: chibihat

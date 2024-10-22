@@ -1,0 +1,20 @@
+2024-10-22 14:45:40,381 Minimum price: 10, Maximum price: 350
+Traceback (most recent call last):
+  File "/home/chibihat/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3790, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 181, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'none'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 299, in <module>
+    go(args)
+  File "/mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 62, in go
+    X, y, test_size=args.val_size, stratify=X[args.stratify_by], random_state=args.random_seed
+  File "/home/chibihat/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/lib/python3.10/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/chibihat/miniconda3/envs/mlflow-211c8fb974d6215abb361efdc7b6c4bd9a3e8dfd/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3797, in get_loc
+    raise KeyError(key) from err
+KeyError: 'none'

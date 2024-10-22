@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c93fd8052646488ca22091ef007a0cc3/artifacts
+end_time: 1729629759812
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c93fd8052646488ca22091ef007a0cc3
+run_name: abundant-flea-550
+run_uuid: c93fd8052646488ca22091ef007a0cc3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729629754327
+status: 4
+tags: []
+user_id: chibihat

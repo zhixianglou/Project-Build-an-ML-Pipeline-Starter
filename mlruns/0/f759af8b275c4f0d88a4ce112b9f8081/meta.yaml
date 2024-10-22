@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f759af8b275c4f0d88a4ce112b9f8081/artifacts
+end_time: 1729629440872
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f759af8b275c4f0d88a4ce112b9f8081
+run_name: overjoyed-koi-778
+run_uuid: f759af8b275c4f0d88a4ce112b9f8081
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729629436321
+status: 4
+tags: []
+user_id: chibihat

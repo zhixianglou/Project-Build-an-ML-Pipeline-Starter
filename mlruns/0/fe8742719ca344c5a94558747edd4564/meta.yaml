@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/fe8742719ca344c5a94558747edd4564/artifacts
+end_time: 1729626503237
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fe8742719ca344c5a94558747edd4564
+run_name: ambitious-seal-341
+run_uuid: fe8742719ca344c5a94558747edd4564
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729626488210
+status: 4
+tags: []
+user_id: chibihat

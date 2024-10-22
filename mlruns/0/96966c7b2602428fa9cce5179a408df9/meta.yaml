@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/96966c7b2602428fa9cce5179a408df9/artifacts
+end_time: 1729625041543
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 96966c7b2602428fa9cce5179a408df9
+run_name: dazzling-cat-517
+run_uuid: 96966c7b2602428fa9cce5179a408df9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729625037583
+status: 4
+tags: []
+user_id: chibihat

@@ -1,0 +1,10 @@
+2024-10-22 14:59:56,296 Minimum price: 10, Maximum price: 350
+2024-10-22 14:59:56,299 Preparing sklearn pipeline
+Traceback (most recent call last):
+  File "/mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 300, in <module>
+    go(args)
+  File "/mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 69, in go
+    sk_pipe, processed_features = get_inference_pipeline(rf_config, args.max_tfidf_features)
+  File "/mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 200, in get_inference_pipeline
+    name_tfidf = Pipeline(
+TypeError: Pipeline.__init__() takes 2 positional arguments but 4 were given

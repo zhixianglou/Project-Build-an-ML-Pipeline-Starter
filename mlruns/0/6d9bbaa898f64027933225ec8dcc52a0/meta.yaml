@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/6d9bbaa898f64027933225ec8dcc52a0/artifacts
+end_time: 1729625160293
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6d9bbaa898f64027933225ec8dcc52a0
+run_name: entertaining-pig-326
+run_uuid: 6d9bbaa898f64027933225ec8dcc52a0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729625102337
+status: 3
+tags: []
+user_id: chibihat

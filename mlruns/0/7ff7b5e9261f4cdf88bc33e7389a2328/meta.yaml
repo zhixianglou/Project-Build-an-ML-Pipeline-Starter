@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7ff7b5e9261f4cdf88bc33e7389a2328/artifacts
+end_time: 1729626717372
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7ff7b5e9261f4cdf88bc33e7389a2328
+run_name: fun-gnu-116
+run_uuid: 7ff7b5e9261f4cdf88bc33e7389a2328
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729626707113
+status: 4
+tags: []
+user_id: chibihat

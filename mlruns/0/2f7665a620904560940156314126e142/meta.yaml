@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2f7665a620904560940156314126e142/artifacts
+end_time: 1729627291864
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2f7665a620904560940156314126e142
+run_name: zealous-shoat-186
+run_uuid: 2f7665a620904560940156314126e142
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729627278967
+status: 4
+tags: []
+user_id: chibihat

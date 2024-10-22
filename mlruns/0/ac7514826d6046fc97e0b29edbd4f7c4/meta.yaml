@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ac7514826d6046fc97e0b29edbd4f7c4/artifacts
+end_time: 1729626516341
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ac7514826d6046fc97e0b29edbd4f7c4
+run_name: colorful-dog-318
+run_uuid: ac7514826d6046fc97e0b29edbd4f7c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729626455143
+status: 4
+tags: []
+user_id: chibihat

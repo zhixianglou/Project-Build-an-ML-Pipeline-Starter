@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5f41cd2cfa394a25b735d6a8b7cbba86/artifacts
+end_time: 1729627191377
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5f41cd2cfa394a25b735d6a8b7cbba86
+run_name: handsome-croc-401
+run_uuid: 5f41cd2cfa394a25b735d6a8b7cbba86
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729627178019
+status: 4
+tags: []
+user_id: chibihat

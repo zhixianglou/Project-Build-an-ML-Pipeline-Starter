@@ -1,0 +1,10 @@
+2024-10-22 14:47:46,164 Minimum price: 10, Maximum price: 350
+2024-10-22 14:47:46,169 Preparing sklearn pipeline
+Traceback (most recent call last):
+  File "/mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 300, in <module>
+    go(args)
+  File "/mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 68, in go
+    sk_pipe, processed_features = get_inference_pipeline(rf_config, args.max_tfidf_features)
+  File "/mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py", line 172, in get_inference_pipeline
+    ("onehot", OneHotEncoder(handle_unknown="ignore"))
+NameError: name 'OneHotEncoder' is not defined
