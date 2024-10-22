@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/1bae8cfe5d8046cb824171fcfd4bccbe/artifacts
+end_time: 1729631659611
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1bae8cfe5d8046cb824171fcfd4bccbe
+run_name: upset-cat-626
+run_uuid: 1bae8cfe5d8046cb824171fcfd4bccbe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729631649170
+status: 4
+tags: []
+user_id: chibihat

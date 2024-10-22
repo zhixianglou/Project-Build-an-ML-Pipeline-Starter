@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/536c423551bc498dae6f73c54e6120e3/artifacts
+end_time: 1729631460831
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 536c423551bc498dae6f73c54e6120e3
+run_name: resilient-gull-342
+run_uuid: 536c423551bc498dae6f73c54e6120e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729631452666
+status: 3
+tags: []
+user_id: chibihat

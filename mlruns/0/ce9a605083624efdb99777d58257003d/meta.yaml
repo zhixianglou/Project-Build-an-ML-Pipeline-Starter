@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ce9a605083624efdb99777d58257003d/artifacts
+end_time: 1729631305237
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ce9a605083624efdb99777d58257003d
+run_name: nosy-shad-273
+run_uuid: ce9a605083624efdb99777d58257003d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729631287827
+status: 3
+tags: []
+user_id: chibihat

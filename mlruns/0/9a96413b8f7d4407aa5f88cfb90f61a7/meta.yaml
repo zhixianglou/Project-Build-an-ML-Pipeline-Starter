@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9a96413b8f7d4407aa5f88cfb90f61a7/artifacts
+end_time: 1729631471368
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9a96413b8f7d4407aa5f88cfb90f61a7
+run_name: secretive-fish-458
+run_uuid: 9a96413b8f7d4407aa5f88cfb90f61a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729631435037
+status: 4
+tags: []
+user_id: chibihat

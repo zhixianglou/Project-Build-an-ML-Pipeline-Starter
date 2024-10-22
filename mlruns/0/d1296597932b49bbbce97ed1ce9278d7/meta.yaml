@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d1296597932b49bbbce97ed1ce9278d7/artifacts
+end_time: 1729631847486
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d1296597932b49bbbce97ed1ce9278d7
+run_name: valuable-dolphin-61
+run_uuid: d1296597932b49bbbce97ed1ce9278d7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729631827639
+status: 3
+tags: []
+user_id: chibihat

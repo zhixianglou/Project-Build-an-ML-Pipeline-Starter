@@ -124,14 +124,10 @@ def go(config: DictConfig):
             # Implement here #
             ##################
             mlflow.run(
-                uri="./components/test_regression_model",
+                uri="/mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/components/test_regression_model",
                 entry_point="main",
-                parameters={
-                    "mlflow_model": "random_forest_export:prod",  # The model artifact
-                    "test_dataset": "test_data.csv:latest"  # The test dataset artifact
-                }
+                parameters={"mlflow_model": "random_forest_export:prod", "test_dataset": "test_data.csv:latest"}
             )
-
 
 if __name__ == "__main__":
     go()

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/851c78849dc84c0392037ce0e0b2e101/artifacts
+end_time: 1729630730236
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 851c78849dc84c0392037ce0e0b2e101
+run_name: lyrical-gnat-27
+run_uuid: 851c78849dc84c0392037ce0e0b2e101
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729630725258
+status: 4
+tags: []
+user_id: chibihat

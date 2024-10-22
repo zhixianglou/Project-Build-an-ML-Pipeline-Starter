@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d3d9013407c1472d975106da78c9cfdb/artifacts
+end_time: 1729631649116
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d3d9013407c1472d975106da78c9cfdb
+run_name: angry-chimp-448
+run_uuid: d3d9013407c1472d975106da78c9cfdb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729631636046
+status: 3
+tags: []
+user_id: chibihat
