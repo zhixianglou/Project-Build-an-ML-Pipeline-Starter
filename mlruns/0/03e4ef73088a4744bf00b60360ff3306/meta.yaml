@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/03e4ef73088a4744bf00b60360ff3306/artifacts
+end_time: 1729616555439
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 03e4ef73088a4744bf00b60360ff3306
+run_name: amusing-ape-288
+run_uuid: 03e4ef73088a4744bf00b60360ff3306
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729616453006
+status: 4
+tags: []
+user_id: chibihat

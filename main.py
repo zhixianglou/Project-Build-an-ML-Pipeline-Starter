@@ -1,5 +1,3 @@
-import json
-
 import mlflow
 import tempfile
 import os
@@ -47,6 +45,7 @@ def go(config: DictConfig):
                     "artifact_type": "raw_data",
                     "artifact_description": "Raw file as downloaded"
                 },
+                env_manager="conda"  # Updated to use conda
             )
 
         if "basic_cleaning" in active_steps:
@@ -77,18 +76,23 @@ def go(config: DictConfig):
             # NOTE: use the rf_config we just created as the rf_config parameter for the train_random_forest
             # step
 
-            ##################
-            # Implement here #
-            ##################
-
-            pass
+            _ = mlflow.run(
+                f"{config['main']['components_repository']}/train_random_forest",
+                "main",
+                version='main',
+                parameters={
+                    "trainval_artifact": "trainval_data.csv:latest",
+                    "rf_config": rf_config,
+                    "max_tfidf_features": config["modeling"]["max_tfidf_features"],
+                    "output_artifact": "random_forest_export"
+                },
+                env_manager="conda"  # Updated to use conda
+            )
 
         if "test_regression_model" in active_steps:
-
             ##################
             # Implement here #
             ##################
-
             pass
 
 

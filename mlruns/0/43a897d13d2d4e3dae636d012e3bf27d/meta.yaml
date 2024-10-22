@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/43a897d13d2d4e3dae636d012e3bf27d/artifacts
+end_time: 1729617290855
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 43a897d13d2d4e3dae636d012e3bf27d
+run_name: skittish-perch-805
+run_uuid: 43a897d13d2d4e3dae636d012e3bf27d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729617274319
+status: 3
+tags: []
+user_id: chibihat

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e570e3a3c1cf4fefb062408aad86f211/artifacts
+end_time: 1729616555053
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e570e3a3c1cf4fefb062408aad86f211
+run_name: upbeat-ray-599
+run_uuid: e570e3a3c1cf4fefb062408aad86f211
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729616495366
+status: 4
+tags: []
+user_id: chibihat

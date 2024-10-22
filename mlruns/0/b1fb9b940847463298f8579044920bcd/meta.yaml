@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/Users/zhixi/PycharmProjects/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b1fb9b940847463298f8579044920bcd/artifacts
+end_time: 1729617291158
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b1fb9b940847463298f8579044920bcd
+run_name: brawny-hare-32
+run_uuid: b1fb9b940847463298f8579044920bcd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1729617267400
+status: 3
+tags: []
+user_id: chibihat
